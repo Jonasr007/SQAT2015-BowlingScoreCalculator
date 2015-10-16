@@ -3,6 +3,7 @@ package org.unioulu.tol.sqat.bsc;
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	boolean islastFrame=false;
 	
 	public int getfirstThrow() {
 		return firstThrow;
@@ -39,9 +40,8 @@ public class Frame {
 	}
 
 	//return whether this is the last frame of the match
-	public boolean isLastFrame(){
-		
-		return false;
+	public boolean isLastFrame(){		
+		return islastFrame;
 	}
 
 	//bonus throws

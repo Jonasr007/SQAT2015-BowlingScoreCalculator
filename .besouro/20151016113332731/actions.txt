@@ -177,3 +177,8 @@ EditAction 1444989724373 Frame.java 979 7 13 0
 RefactoringAction 1444989752933 BowlingGame.java ADD int counter FIELD
 RefactoringAction 1444989786502 BowlingGame.java ADD int getCounter() METHOD
 EditAction 1444989805441 BowlingGame.java 1091 6 9 0
+RefactoringAction 1444989822544 BowlingGame.java REMOVE getCounter() METHOD
+RefactoringAction 1444989857948 Frame.java ADD boolean LastFrame FIELD
+RefactoringAction 1444989883998 Frame.java RENAME LastFrame=>boolean lastFrame FIELD
+RefactoringAction 1444989888509 Frame.java RENAME lastFrame=>boolean islastFrame FIELD
+EditAction 1444989891464 Frame.java 1012 7 13 0
