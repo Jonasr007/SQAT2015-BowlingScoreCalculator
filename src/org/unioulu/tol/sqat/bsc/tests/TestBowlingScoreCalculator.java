@@ -13,7 +13,7 @@ public class TestBowlingScoreCalculator {
 		// 1. & 2.		
 		assertEquals(f1.score(),4);
 		
-		//3.
+		//3. & 4.
 		Frame f2 = new Frame(2,2); // 8
 		Frame f3 = new Frame(1,4); // 13
 		Frame f4 = new Frame(2,6); // 21
@@ -37,8 +37,23 @@ public class TestBowlingScoreCalculator {
 		bG1.addFrame(f10);
 		assertEquals(bG1.score(),71);
 		
-		//4.
+		//5.
 		f2 = new Frame(10,0);
+		bG1 = new BowlingGame();
+		bG1.addFrame(f1);
+		bG1.addFrame(f2);
+		bG1.addFrame(f3);
+		bG1.addFrame(f4);
+		bG1.addFrame(f5);
+		bG1.addFrame(f6);
+		bG1.addFrame(f7);
+		bG1.addFrame(f8);
+		bG1.addFrame(f9);
+		bG1.addFrame(f10);
+		assertEquals(bG1.score(),77);
+		
+		//6.
+		f2 = new Frame(4,6);
 		bG1 = new BowlingGame();
 		bG1.addFrame(f1);
 		bG1.addFrame(f2);
