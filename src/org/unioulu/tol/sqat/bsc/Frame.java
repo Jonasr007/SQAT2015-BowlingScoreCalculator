@@ -15,7 +15,7 @@ public class Frame {
 		result= firstThrow+secondThrow;
 		// To avoid wrong inputs
 		if(isStrike())
-			result+=10;
+		//	result+=10;
 		
 		return result;
 	}
