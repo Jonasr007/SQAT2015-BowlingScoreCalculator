@@ -82,7 +82,7 @@ public class TestBowlingScoreCalculator {
 		bG1.addFrame(f8);
 		bG1.addFrame(f9);
 		bG1.addFrame(f10);
-		assertEquals(bG1.score(),71-4+20+12);
+		assertEquals(bG1.score(),71-4-5+20+12);
 		
 		
 		
