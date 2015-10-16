@@ -36,6 +36,10 @@ public class TestBowlingScoreCalculator {
 		bG1.addFrame(f9);
 		bG1.addFrame(f10);
 		assertEquals(bG1.score(),71);
+		
+		//4.
+		f2 = new Frame(10,0);
+		
 
 		
 		
