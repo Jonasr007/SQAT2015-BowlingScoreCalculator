@@ -11,11 +11,13 @@ public class Frame {
 	
 	//the score of a single frame
 	public int score(){
+		int result;
+		result= firstThrow+secondThrow;
 		// To avoid wrong inputs
 		if(isStrike())
-			secondThrow=0;
+			result+=10;
 		
-		return firstThrow+secondThrow;
+		return result;
 	}
 
 	//returns whether the frame is a strike or not
@@ -27,7 +29,8 @@ public class Frame {
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
-		//to be implemented
+		if(firstThrow+secondThrow==10)
+			return true;
 		return false;
 	}
 
