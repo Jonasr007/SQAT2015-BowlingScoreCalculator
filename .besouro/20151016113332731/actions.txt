@@ -8,3 +8,4 @@ RefactoringAction 1444984732916 TestBowlingScoreCalculator.java REMOVE import ja
 RefactoringAction 1444984739043 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.Frame IMPORT
 CompilationAction 1444984757589 TestBowlingScoreCalculator.java
 EditAction 1444984757600 BowlingGame.java 611 5 3 0
+EditAction 1444984757684 Frame.java 792 6 7 0
