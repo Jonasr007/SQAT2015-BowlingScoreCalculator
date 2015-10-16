@@ -34,6 +34,7 @@ public class BowlingGame {
 			else if(wasSpare)
 				result+=f.getfirstThrow();
 			
+			
 			if(f.isStrike())
 				wasStrike=true;
 			else	
