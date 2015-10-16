@@ -25,14 +25,13 @@ public class BowlingGame {
 		boolean wasSpare=false;
 		
 		for(Frame f: frames) {
-			result+=f.score();
 			
 			if(f.isSpare())
 				wasSpare=true;
 			else
 				wasSpare=false;
 
-		//	if(!f.isSpare())
+			if(!f.isSpare())
 				result+=f.score();
 
 		}
