@@ -12,13 +12,11 @@ public class BowlingGame {
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame){
-		this.frames.add(frame);
 		counter++;
-		//to be implemented
-	}
-	
-	public int getCounter() {
-		return counter;
+		if(counter==10) {
+			frame.setIslastFrame(true);
+		}
+		this.frames.add(frame);
 	}
 
 	public void setBonus(int firstThrow, int secondThrow) {

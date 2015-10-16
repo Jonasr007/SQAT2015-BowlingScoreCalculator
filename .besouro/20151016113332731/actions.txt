@@ -182,3 +182,5 @@ RefactoringAction 1444989857948 Frame.java ADD boolean LastFrame FIELD
 RefactoringAction 1444989883998 Frame.java RENAME LastFrame=>boolean lastFrame FIELD
 RefactoringAction 1444989888509 Frame.java RENAME lastFrame=>boolean islastFrame FIELD
 EditAction 1444989891464 Frame.java 1012 7 13 0
+RefactoringAction 1444989906049 Frame.java ADD void setIslastFrame(boolean) METHOD
+EditAction 1444989969913 BowlingGame.java 1072 5 9 0
