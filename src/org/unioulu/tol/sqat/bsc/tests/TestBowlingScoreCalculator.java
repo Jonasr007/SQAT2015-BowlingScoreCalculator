@@ -67,8 +67,7 @@ public class TestBowlingScoreCalculator {
 		bG1.addFrame(f10);
 		assertEquals(bG1.score(),88);
 
-		//7
-		
+		//7		
 		f2 = new Frame(10,0); // strike count 20
 		f3 = new Frame(4,6); //--> next one f4(2,6) just the first count so count 12
 		bG1 = new BowlingGame();
@@ -82,7 +81,7 @@ public class TestBowlingScoreCalculator {
 		bG1.addFrame(f8);
 		bG1.addFrame(f9);
 		bG1.addFrame(f10);
-	//	assertEquals(bG1.score(),71-4-5+20+12);
+		assertEquals(bG1.score(),103);
 		
 		
 		
