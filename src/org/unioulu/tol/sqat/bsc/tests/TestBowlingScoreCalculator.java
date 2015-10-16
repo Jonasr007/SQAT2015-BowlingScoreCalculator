@@ -100,6 +100,7 @@ public class TestBowlingScoreCalculator {
 	//	assertEquals(bG1.score(),112);
 		
 		// Lastframe
+		assertEquals(f9.isLastFrame(),false);
 		assertEquals(f10.isLastFrame(),true);
 		
 	}
