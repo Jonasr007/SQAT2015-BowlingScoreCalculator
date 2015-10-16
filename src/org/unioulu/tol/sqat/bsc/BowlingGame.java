@@ -27,11 +27,20 @@ public class BowlingGame {
 		int result=0;
 		boolean wasStrike=false;
 		boolean wasSpare=false;
-		boolean StrikeSpareFlag=false;
+		boolean multiStrikeFlag=false;
 		
 		for(Frame f: frames) {
-			if(wasStrike)
+			if(multiStrikeFlag) {
+				result+=f.getfirstThrow();
+				multiStrikeFlag=false;
+			}
+			
+			if(wasStrike) {
 				result+=10+f.score();
+				if(f.isStrike()) 
+					multiStrikeFlag=true;				
+			}
+			
 			if(wasSpare)
 				result+=f.getfirstThrow();			
 					
@@ -47,7 +56,6 @@ public class BowlingGame {
 			
 			if(!f.isStrike())
 				result+=f.score();
-		//	System.out.println(result);
 
 		}
 		return result;
