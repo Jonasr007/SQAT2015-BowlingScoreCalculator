@@ -22,7 +22,10 @@ public class BowlingGame {
 	public int score(){
 		int result=0;
 		for(Frame f: frames) {
-			result+=f.score();
+			if(f.isStrike())
+				result+=10;
+			else
+				result+=f.score();
 		}
 		return result;
 	}
