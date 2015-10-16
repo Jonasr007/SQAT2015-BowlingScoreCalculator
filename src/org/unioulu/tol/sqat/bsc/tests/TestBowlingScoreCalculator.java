@@ -99,8 +99,9 @@ public class TestBowlingScoreCalculator {
 		bG1.addFrame(f10);
 	//	assertEquals(bG1.score(),112);
 		
+		// Lastframe
+		assertEquals(f10.isLastFrame(),true);
 		
-	//	fail("Not yet implemented");
 	}
 
 }
