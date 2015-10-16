@@ -61,3 +61,6 @@
 1444990031243 test-first 3 965 true
 1444990081314 test-addition 1 0 true
 1444990094032 test-addition 1 0 true
+1444990490116 refactoring 3 111 true
+1444990490117 refactoring 3 111 true
+1444990493848 regression 1 0 true
