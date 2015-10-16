@@ -36,15 +36,13 @@ public class BowlingGame {
 				result+=f.getfirstThrow();			
 			
 			if(StrikeSpareFlag){
-				// System.out.println(f.getfirstThrow());
-			//	result-=f.getfirstThrow();	
+				System.out.println(f.getfirstThrow());
+				result-=f.getfirstThrow();	
 				StrikeSpareFlag=false;
 			}
 			
 			if(f.isSpare()&&wasStrike)
-				result-=7;	
-
-		//		StrikeSpareFlag=true;			
+				StrikeSpareFlag=true;			
 			
 			if(f.isStrike())
 				wasStrike=true;
