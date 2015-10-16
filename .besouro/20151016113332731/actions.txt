@@ -218,3 +218,6 @@ UnitTestSessionAction 1444990630212 TestBowlingScoreCalculator FAIL
 UnitTestCaseAction 1444990638281 TestGrid.java OK
 UnitTestSessionAction 1444990638281 TestGrid.testSingleCellOnGridShouldHasOneOtherNeighbour OK
 EditAction 1444990703816 TestBowlingScoreCalculator.java 2873 1 89 5
+UnitTestCaseAction 1444990704209 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444990704210 TestBowlingScoreCalculator FAIL
+EditAction 1444990718477 BowlingGame.java 1131 5 10 0
