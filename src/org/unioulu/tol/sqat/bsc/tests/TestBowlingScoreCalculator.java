@@ -67,6 +67,8 @@ public class TestBowlingScoreCalculator {
 		bG1.addFrame(f10);
 		assertEquals(bG1.score(),77+6-4);
 
+		//7
+		
 		
 		
 	//	fail("Not yet implemented");
