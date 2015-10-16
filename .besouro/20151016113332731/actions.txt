@@ -174,3 +174,6 @@ EditAction 1444989132807 TestBowlingScoreCalculator.java 2418 1 74 3
 UnitTestCaseAction 1444989141772 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444989141772 TestBowlingScoreCalculator FAIL
 EditAction 1444989724373 Frame.java 979 7 13 0
+RefactoringAction 1444989752933 BowlingGame.java ADD int counter FIELD
+RefactoringAction 1444989786502 BowlingGame.java ADD int getCounter() METHOD
+EditAction 1444989805441 BowlingGame.java 1091 6 9 0
