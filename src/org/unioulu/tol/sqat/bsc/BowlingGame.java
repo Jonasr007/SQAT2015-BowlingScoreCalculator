@@ -27,6 +27,7 @@ public class BowlingGame {
 		int result=0;
 		boolean wasStrike=false;
 		boolean wasSpare=false;
+		boolean StrikeSpareFlag=false;
 		
 		for(Frame f: frames) {
 			if(wasStrike)
@@ -34,8 +35,12 @@ public class BowlingGame {
 			if(wasSpare)
 				result+=f.getfirstThrow();			
 			
+			if(StrikeSpareFlag){
+				
+			}
+			
 			if(f.isSpare()&&wasStrike)
-				result+=5;
+				StrikeSpareFlag=true;			
 			
 			if(f.isStrike())
 				wasStrike=true;
