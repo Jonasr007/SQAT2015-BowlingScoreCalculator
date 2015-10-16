@@ -11,7 +11,7 @@ public class TestBowlingScoreCalculator {
 		Frame f1 = new Frame(2,2);
 		assertEquals(f1.score(),4);
 		
-		fail("Not yet implemented");
+	//	fail("Not yet implemented");
 	}
 
 }
