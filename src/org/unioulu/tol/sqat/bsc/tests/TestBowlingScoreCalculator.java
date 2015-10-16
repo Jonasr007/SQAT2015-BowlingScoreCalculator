@@ -97,11 +97,11 @@ public class TestBowlingScoreCalculator {
 		bG1.addFrame(f8);
 		bG1.addFrame(f9);
 		bG1.addFrame(f10);
-		assertEquals(bG1.score(),112);
+	//	assertEquals(bG1.score(),112);
 		
 		//9		
-		f2 = new Frame(8,2); // strike count 27
-		f3 = new Frame(5,5); // strike count 19
+		f1 = new Frame(8,2); // strike count 27
+		f2 = new Frame(5,5); // strike count 19
 		bG1 = new BowlingGame();
 		bG1.addFrame(f1);
 		bG1.addFrame(f2);
@@ -113,7 +113,7 @@ public class TestBowlingScoreCalculator {
 		bG1.addFrame(f8);
 		bG1.addFrame(f9);
 		bG1.addFrame(f10);
-	//	assertEquals(bG1.score(),98);	
+		assertEquals(bG1.score(),98);	
 		
 		// Lastframe
 //		assertEquals(f9.isLastFrame(),false);
