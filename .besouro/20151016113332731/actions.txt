@@ -16,3 +16,4 @@ UnitTestCaseAction 1444984773290 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444984773291 TestBowlingScoreCalculator OK
 RefactoringAction 1444984949241 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.BowlingGame IMPORT
 EditAction 1444985157777 TestBowlingScoreCalculator.java 945 1 22 2
+EditAction 1444985157860 BowlingGame.java 659 5 5 0

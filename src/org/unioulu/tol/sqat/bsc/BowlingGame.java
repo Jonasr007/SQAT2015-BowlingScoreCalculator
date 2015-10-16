@@ -20,7 +20,10 @@ public class BowlingGame {
 	}
 	
 	public int score(){
-		//to be implemented
+		int result=0;
+		for(Frame f: frames) {
+			result+=f.score();
+		}
 		return 0;
 	}
 	
