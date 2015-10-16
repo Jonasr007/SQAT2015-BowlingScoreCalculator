@@ -29,6 +29,9 @@ public class BowlingGame {
 				result+=10+f.score();
 			else if(wasSpare)
 				result+=f.getfirstThrow();
+			if(f.isSpare()&&wasStrike)
+				result-=f.getfirstThrow();
+
 			
 			if(f.isStrike())
 				wasStrike=true;
@@ -40,7 +43,7 @@ public class BowlingGame {
 			else
 				wasSpare=false;
 			if(!f.isStrike())
-				result+=f.score();		
+				result+=f.score();
 
 		}
 		return result;
