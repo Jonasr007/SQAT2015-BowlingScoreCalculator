@@ -113,7 +113,38 @@ public class TestBowlingScoreCalculator {
 		bG1.addFrame(f8);
 		bG1.addFrame(f9);
 		bG1.addFrame(f10);
-		assertEquals(bG1.score(),98);	
+		assertEquals(bG1.score(),98);
+		
+		//10
+		f10 = new Frame(2,8);
+		bG1 = new BowlingGame();
+		bG1.addFrame(f1);
+		bG1.addFrame(f2);
+		bG1.addFrame(f3);
+		bG1.addFrame(f4);
+		bG1.addFrame(f5);
+		bG1.addFrame(f6);
+		bG1.addFrame(f7);
+		bG1.addFrame(f8);
+		bG1.addFrame(f9);
+		bG1.addFrame(f10);
+		assertEquals(bG1.score(),90);
+	
+		//11
+		f10 = new Frame(10,0);
+		bG1 = new BowlingGame();
+		bG1.addFrame(f1);
+		bG1.addFrame(f2);
+		bG1.addFrame(f3);
+		bG1.addFrame(f4);
+		bG1.addFrame(f5);
+		bG1.addFrame(f6);
+		bG1.addFrame(f7);
+		bG1.addFrame(f8);
+		bG1.addFrame(f9);
+		bG1.addFrame(f10);
+//		assertEquals(bG1.score(),92);		
+		
 		
 		// Lastframe
 //		assertEquals(f9.isLastFrame(),false);
