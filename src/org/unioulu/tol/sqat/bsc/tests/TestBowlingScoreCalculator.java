@@ -53,7 +53,7 @@ public class TestBowlingScoreCalculator {
 		assertEquals(bG1.score(),77);
 		
 		//6.
-		f2 = new Frame(4,6);
+		f2 = new Frame(4,6); //--> next one f3(1,4) just the first count
 		bG1 = new BowlingGame();
 		bG1.addFrame(f1);
 		bG1.addFrame(f2);
