@@ -27,9 +27,7 @@ public class BowlingGame {
 		for(Frame f: frames) {
 			if(wasStrike)
 				result+=10;
-			if(wasSpare)
-				result+=10;
-
+		
 			
 			if(f.isStrike())
 				wasStrike=true;
