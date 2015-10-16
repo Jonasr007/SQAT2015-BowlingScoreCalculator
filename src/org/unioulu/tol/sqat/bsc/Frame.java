@@ -44,6 +44,10 @@ public class Frame {
 		return islastFrame;
 	}
 
+	public void setIslastFrame(boolean islastFrame) {
+		this.islastFrame = islastFrame;
+	}
+
 	//bonus throws
 	public int bonus(){
 		//to be implemented
