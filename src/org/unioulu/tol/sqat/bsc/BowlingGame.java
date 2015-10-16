@@ -41,6 +41,8 @@ public class BowlingGame {
 				wasSpare=false;
 			if(!f.isStrike())
 				result+=f.score();
+			
+			System.out.println(f.score());
 
 		}
 		return result;
