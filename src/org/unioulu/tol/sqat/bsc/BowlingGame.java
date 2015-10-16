@@ -26,6 +26,15 @@ public class BowlingGame {
 		
 		for(Frame f: frames) {
 			result+=f.score();
+			
+			if(f.isSpare())
+				wasSpare=true;
+			else
+				wasSpare=false;
+
+			if(!f.isStrike()&&!f.isSpare())
+				result+=f.score();
+
 		}
 		return result;
 	}

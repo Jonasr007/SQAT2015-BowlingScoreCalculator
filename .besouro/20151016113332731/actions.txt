@@ -65,3 +65,4 @@ UnitTestCaseAction 1444987025009 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444987025010 TestBowlingScoreCalculator OK
 RefactoringAction 1444987144035 Frame.java ADD int getSecondThrow() METHOD
 EditAction 1444987146956 Frame.java 1000 7 13 0
+EditAction 1444987174390 BowlingGame.java 862 5 7 0
