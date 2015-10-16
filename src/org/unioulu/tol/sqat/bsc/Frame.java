@@ -11,6 +11,10 @@ public class Frame {
 	
 	//the score of a single frame
 	public int score(){
+		// To avoid wrong inputs
+		if(isStrike())
+			secondThrow=0;
+		
 		return firstThrow+secondThrow;
 	}
 
