@@ -115,6 +115,10 @@ public class TestBowlingScoreCalculator {
 		bG1.addFrame(f10);
 		assertEquals(bG1.score(),98);
 		
+		f1 = new Frame(1,5);	
+		f2 = new Frame(3,6); // 8
+		f3 = new Frame(7,2); // 13
+		
 		//10
 		f10 = new Frame(2,8);
 		bG1 = new BowlingGame();
