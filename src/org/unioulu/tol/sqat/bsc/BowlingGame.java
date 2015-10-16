@@ -22,6 +22,8 @@ public class BowlingGame {
 	public int score(){
 		int result=0;
 		boolean wasStrike=false;
+		boolean wasSpare=false;
+		
 		for(Frame f: frames) {
 			if(wasStrike==true)
 				result+=10;
@@ -31,8 +33,10 @@ public class BowlingGame {
 			else	
 				wasStrike=false;
 			
-			if(f.isSpare()) {
-			}
+			if(f.isSpare())
+				wasSpare=true;
+			else
+				wasSpare=false;
 
 			if(!f.isStrike())
 				result+=f.score();
