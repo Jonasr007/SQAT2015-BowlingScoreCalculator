@@ -8,6 +8,8 @@ public class TestBowlingScoreCalculator {
 
 	@Test
 	public void test() {
+		Frame f1 = new Frame(2,2);
+		
 		fail("Not yet implemented");
 	}
 
