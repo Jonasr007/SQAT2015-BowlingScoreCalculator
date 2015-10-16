@@ -39,7 +39,7 @@ public class BowlingGame {
 				wasSpare=true;
 			else
 				wasSpare=false;
-
+			if(!f.isStrike())
 				result+=f.score();
 
 		}
