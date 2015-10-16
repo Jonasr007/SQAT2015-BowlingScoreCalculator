@@ -42,7 +42,7 @@ public class BowlingGame {
 			}
 			
 			if(f.isSpare()&&wasStrike)
-				result-=f.getfirstThrow();	
+				result-=7;	
 
 		//		StrikeSpareFlag=true;			
 			
