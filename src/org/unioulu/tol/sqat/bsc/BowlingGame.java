@@ -36,6 +36,7 @@ public class BowlingGame {
 				result+=f.getfirstThrow();			
 			
 			if(StrikeSpareFlag){
+				System.out.println(f.getfirstThrow());
 			//	result-=f.getfirstThrow();	
 				StrikeSpareFlag=false;
 			}
