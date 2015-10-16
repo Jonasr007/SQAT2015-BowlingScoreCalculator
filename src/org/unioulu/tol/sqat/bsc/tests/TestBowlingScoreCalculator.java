@@ -68,8 +68,8 @@ public class TestBowlingScoreCalculator {
 		assertEquals(bG1.score(),88);
 
 		//7		
-		f2 = new Frame(10,0); // strike count 20
-		f3 = new Frame(4,6); //--> next one f4(2,6) just the first count so count 12
+		f1 = new Frame(10,0); // strike count 20
+		f2 = new Frame(4,6); //--> next one f4(2,6) just the first count so count 12
 		bG1 = new BowlingGame();
 		bG1.addFrame(f1);
 		bG1.addFrame(f2);
