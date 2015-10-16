@@ -32,7 +32,7 @@ public class BowlingGame {
 			else
 				wasSpare=false;
 
-			if(!f.isStrike()&&!f.isSpare())
+			if(!f.isSpare())
 				result+=f.score();
 
 		}
