@@ -69,6 +69,21 @@ public class TestBowlingScoreCalculator {
 
 		//7
 		
+		f2 = new Frame(10,0); // strike count 20
+		f3 = new Frame(4,6); //--> next one f4(2,6) just the first count so count 12
+		bG1 = new BowlingGame();
+		bG1.addFrame(f1);
+		bG1.addFrame(f2);
+		bG1.addFrame(f3);
+		bG1.addFrame(f4);
+		bG1.addFrame(f5);
+		bG1.addFrame(f6);
+		bG1.addFrame(f7);
+		bG1.addFrame(f8);
+		bG1.addFrame(f9);
+		bG1.addFrame(f10);
+		assertEquals(bG1.score(),71-4+20+12);
+		
 		
 		
 	//	fail("Not yet implemented");
