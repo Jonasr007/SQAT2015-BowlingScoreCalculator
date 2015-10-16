@@ -26,7 +26,7 @@ public class BowlingGame {
 		
 		for(Frame f: frames) {
 			if(wasStrike)
-				result+=10;
+				result+=10+f.score();
 			else if(wasSpare)
 				result+=10-2*f.getsecondThrow();
 			
