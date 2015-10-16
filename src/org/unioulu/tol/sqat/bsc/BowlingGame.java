@@ -11,6 +11,7 @@ public class BowlingGame {
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame){
+		this.frames.add(frame);
 		//to be implemented
 	}
 	
