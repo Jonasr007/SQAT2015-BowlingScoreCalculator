@@ -4,6 +4,10 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	
+	public int getSecondThrow() {
+		return secondThrow;
+	}
+
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
@@ -14,8 +18,8 @@ public class Frame {
 		int result;
 		result= firstThrow+secondThrow;
 		// To avoid wrong inputs
-	//	if(isStrike())
-		//	result+=10;
+		if(isStrike())
+			secondThrow=0;
 		
 		return result;
 	}
