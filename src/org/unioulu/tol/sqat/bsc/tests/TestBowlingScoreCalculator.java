@@ -97,7 +97,7 @@ public class TestBowlingScoreCalculator {
 		bG1.addFrame(f8);
 		bG1.addFrame(f9);
 		bG1.addFrame(f10);
-	//	assertEquals(bG1.score(),112);
+		assertEquals(bG1.score(),112);
 		
 		//9		
 		f1 = new Frame(8,2); // strike count 27
