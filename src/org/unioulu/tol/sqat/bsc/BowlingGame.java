@@ -25,6 +25,16 @@ public class BowlingGame {
 		boolean wasSpare=false;
 		
 		for(Frame f: frames) {
+			if(wasStrike)
+				result+=10;
+			if(wasSpare)
+				result+=10;
+
+			
+			if(f.isStrike())
+				wasStrike=true;
+			else	
+				wasStrike=false;
 			
 			if(f.isSpare())
 				wasSpare=true;
