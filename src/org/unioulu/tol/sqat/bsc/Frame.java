@@ -4,8 +4,8 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	
-	public int getfirstThrow() {
-		return firstThrow;
+	public int getsecondThrow() {
+		return secondThrow;
 	}
 
 	public Frame(int firstThrow, int secondThrow){
